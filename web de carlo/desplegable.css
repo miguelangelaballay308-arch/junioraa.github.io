@@ -1,0 +1,9 @@
+#menu ul{ list-style:none;margin:0; padding:0 ;}
+#menu ul li{ background-color:#2e518b;}
+#menu ul a{ display:block; color:#fff; font-weight:400; font-size:15px;padding:10px; font-family:"arial"; text-decoration:none; }
+#menu ul li{position: relative; float: left; margin: 0; padding:0;}
+#menu ul li:hover{background-color: #5b78a7;}
+#menu ul ul{ display:none; position:absolute; top:100%; left:0, background-color:#eee; padding:0; }
+#menu ul ul li { display:none; width: 150px; }
+#menu ul ul a{ line-height:120%; padding:10px 15px; }
+#menu ul li:hover>ul{ display:block; }
